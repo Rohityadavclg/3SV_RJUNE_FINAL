@@ -15,16 +15,18 @@ import HighlightText from "../components/core/HomePage/HighlightText"
 const About = () => {
   return (
     <div>
-      <section className="bg-richblack-700">
+      <section className="bg-richblack-900">
         <div className="relative mx-auto flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-center text-white">
           <header className="mx-auto py-20 text-4xl font-semibold lg:w-[70%]">
-            Driving Innovation in Online Education for a
+            Driving Innovation Consultancy Service
             <HighlightText text={"Brighter Future"} />
             <p className="mx-auto mt-3 text-center text-base font-medium text-richblack-300 lg:w-[95%]">
-              Studynotion is at the forefront of driving innovation in online
-              education. We're passionate about creating a brighter future by
-              offering cutting-edge courses, leveraging emerging technologies,
-              and nurturing a vibrant learning community.
+              3SV provides a consultancy service to both manufacturing and
+              service sectors for the optimization of processes, time, space,
+              and cost. Consultancy services are provided by 3SV through its
+              Centre of Excellence which is fully equipped with experienced
+              internationally certified industrial experts in Six Sigma,
+              Analytics and Project Management.
             </p>
           </header>
           <div className="sm:h-[70px] lg:h-[150px]"></div>
@@ -45,26 +47,33 @@ const About = () => {
 
       <section>
         <div className="mx-auto flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-richblack-500">
-          <div className="flex flex-col items-center gap-10 lg:flex-row justify-between">
-            <div className="my-24 flex lg:w-[50%] flex-col gap-10">
+          <div className="flex flex-col items-center justify-between gap-10 lg:flex-row">
+            <div className="my-24 flex flex-col gap-10 lg:w-[50%]">
               <h1 className="bg-gradient-to-br from-[#833AB4] via-[#FD1D1D] to-[#FCB045] bg-clip-text text-4xl font-semibold text-transparent lg:w-[70%] ">
-                Our Founding Story
+                About Company
               </h1>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                Our e-learning platform was born out of a shared vision and
-                passion for transforming education. It all began with a group of
-                educators, technologists, and lifelong learners who recognized
-                the need for accessible, flexible, and high-quality learning
-                opportunities in a rapidly evolving digital world.
+                3SV Edumentors and Consultants is an established organization
+                whose head office is in Mumbai. 3SV also having an office in
+                Pune. 3SV is known for consultancy services to manufacturing
+                units as well as service sector organizations, value added
+                industry synchronized certificate courses for graduate and
+                post-graduate students of various streams such as management,
+                engineering, pharmaceutical, computer application, and for
+                working professionals from various industries.
               </p>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                As experienced educators ourselves, we witnessed firsthand the
-                limitations and challenges of traditional education systems. We
-                believed that education should not be confined to the walls of a
-                classroom or restricted by geographical boundaries. We
-                envisioned a platform that could bridge these gaps and empower
-                individuals from all walks of life to unlock their full
-                potential.
+                In the education sector 3SV offers online and offline courses in
+                Six Sigma with certifications, Data Analytics, Data Science,
+                Data Engineering, Business Analytics courses, Project Management
+                courses for freshers and working professionals in association
+                with Authorized Training Partner (ATP) of Project Management
+                Institute (PMI), USA, and various other industry-oriented
+                value-added. 3SV also provides other value enhancing courses to
+                various institutes. These courses are developed by industry
+                experts to help learners in achieving their career goal. 3SV
+                believes in preparing learners for success in a changing
+                scenario by providing blended (Online and Offline) courses.
               </p>
             </div>
 
@@ -76,26 +85,30 @@ const About = () => {
               />
             </div>
           </div>
-          <div className="flex flex-col items-center lg:gap-10 lg:flex-row justify-between">
-            <div className="my-24 flex lg:w-[40%] flex-col gap-10">
+          <div className="flex flex-col items-center justify-between lg:flex-row lg:gap-10">
+            <div className="my-24 flex flex-col gap-10 lg:w-[40%]">
               <h1 className="bg-gradient-to-b from-[#FF512F] to-[#F09819] bg-clip-text text-4xl font-semibold text-transparent lg:w-[70%] ">
                 Our Vision
               </h1>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                With this vision in mind, we set out on a journey to create an
-                e-learning platform that would revolutionize the way people
-                learn. Our team of dedicated experts worked tirelessly to
-                develop a robust and intuitive platform that combines
-                cutting-edge technology with engaging content, fostering a
-                dynamic and interactive learning experience.
+                To be recognised as a Global Leader in Fostering and Developing
+                Industry Synchronized Courses and Consultancy Services
               </p>
             </div>
-            <div className="my-24 flex lg:w-[40%] flex-col gap-10">
-              <h1 className="bg-gradient-to-b from-[#1FA2FF] via-[#12D8FA] to-[#A6FFCB] text-transparent bg-clip-text text-4xl font-semibold lg:w-[70%] ">
-              Our Mission
+            <div className="my-24 flex flex-col gap-10 lg:w-[40%]">
+              <h1 className="bg-gradient-to-b from-[#1FA2FF] via-[#12D8FA] to-[#A6FFCB] bg-clip-text text-4xl font-semibold text-transparent lg:w-[70%] ">
+                Our Mission
               </h1>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-              Our mission goes beyond just delivering courses online. We wanted to create a vibrant community of learners, where individuals can connect, collaborate, and learn from one another. We believe that knowledge thrives in an environment of sharing and dialogue, and we foster this spirit of collaboration through forums, live sessions, and networking opportunities.
+                Becoming a leading Centre of Excellence of knowledge management
+                pertaining to various aspects of industry synchronized courses
+                and consultancy services. Promote industry synchronized courses
+                through education, training, consulting, applied research and
+                institution - building Assist in capacity building, training and
+                institutions in the field of industry schynchronized activities
+                with focus on research, innovation, incubation, consultation and
+                digitalization Helping Client's organization in making
+                productivity and quality improved firm through people works
               </p>
             </div>
           </div>
@@ -110,7 +123,7 @@ const About = () => {
 
       <div className="relative mx-auto my-20 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-richblack-900 text-white">
         {/* Reviws from Other Learner */}
-        <h1 className="text-center text-4xl font-semibold mt-8">
+        <h1 className="mt-8 text-center text-4xl font-semibold">
           Reviews from other learners
         </h1>
         <ReviewSlider />
