@@ -1,16 +1,16 @@
 {
-	"name": "studynotion-backend",
+	"name": "3sv-backend",
 	"version": "1.0.0",
-	"description": "studynotion-backend",
+	"description": "3sv-backend",
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js",
 		"dev": "nodemon index.js"
 	},
 	"keywords": [
-		"studynotion-backend"
+		"3sv-backend"
 	],
-	"author": "Saikat Mukherjee",
+	"author": "Rohit Yadav",
 	"license": "ISC",
 	"dependencies": {
 		"bcrypt": "^5.1.0",
