@@ -1,14 +1,19 @@
 {
-	"name": "3sv-backend",
+ 
+	"name": "3Sv Edumentor-backend",
 	"version": "1.0.0",
-	"description": "3sv-backend",
+	"description": "3Sv Edumentor-backend",
+ 
+ 
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js",
 		"dev": "nodemon index.js"
 	},
 	"keywords": [
-		"3sv-backend"
+ 
+		"3Sv Edumentor-backend"
+ 
 	],
 	"author": "Rohit Yadav",
 	"license": "ISC",
