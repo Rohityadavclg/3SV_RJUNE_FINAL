@@ -38,7 +38,7 @@ function Home() {
 
         {/* Sub Heading */}
         <div className="-mt-3 w-[90%] text-center text-lg font-bold text-richblack-300">
-          With our online coding courses, you can learn at your own pace, from
+          With our online and offilie courses, you can learn at your own pace, from
           anywhere in the world, and get access to a wealth of resources,
           including hands-on projects, quizzes, and personalized feedback from
           instructors.
@@ -78,7 +78,7 @@ function Home() {
               </div>
             }
             subheading={
-              "Our courses are designed and taught by industry experts who have years of experience in coding and are passionate about sharing their knowledge with you."
+              "Our courses are designed and taught by industry experts who have years of experience in certification and are passionate about sharing their knowledge with you."
             }
             ctabtn1={{
               btnText: "Try it Yourself",
@@ -107,7 +107,7 @@ function Home() {
               </div>
             }
             subheading={
-              "Go ahead, give it a try. Our hands-on learning environment means you'll be writing real code from your very first lesson."
+              "Go ahead, give it a try. Our hands-on learning environment means you'll be writing very first lesson."
             }
             ctabtn1={{
               btnText: "Continue Lesson",
@@ -158,7 +158,7 @@ function Home() {
             </div>
             <div className="flex flex-col items-start gap-10 lg:w-[40%]">
               <div className="text-[16px]">
-                The modern StudyNotion is the dictates its own terms. Today, to
+                The modern 3SV Edumentors & Consultants the dictates its own terms. Today, to
                 be a competitive specialist requires more than professional
                 skills.
               </div>
