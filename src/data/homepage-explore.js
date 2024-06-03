@@ -22,46 +22,46 @@ export const HomePageExplore = [
             },
         ]
     },
-    {
-        tag: 'New to coding',
-        courses : [
-            {
-                heading : "HTML",
-                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
-                level : 'Beginner',
-                lessionNumber : 6
-            },
-            {
-                heading : "CSS",
-                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
-                level : 'Beginner',
-                lessionNumber : 6
-            },
-            {
-                heading : "Responsive ",
-                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
-                level : 'Beginner',
-                lessionNumber : 6
-            },
-        ]
-    },
+    // {
+    //     tag: 'New to coding',
+    //     courses : [
+    //         {
+    //             heading : "Excel",
+    //             description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
+    //             level : 'Beginner',
+    //             lessionNumber : 6
+    //         },
+    //         {
+    //             heading : "Six Sigma",
+    //             description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
+    //             level : 'Beginner',
+    //             lessionNumber : 6
+    //         },
+    //         {
+    //             heading : "Analytics ",
+    //             description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
+    //             level : 'Beginner',
+    //             lessionNumber : 6
+    //         },
+    //     ]
+    // },
     {
         tag: 'Most popular',
         courses : [
             {
-                heading : "Java",
+                heading : "6-Month-Certificate-Course",
                 description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "Python",
+                heading : "4-Month-Certificate-Course",
                 description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "SCSS",
+                heading : "3-Month-Certificate-Course",
                 description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
                 level : 'Beginner',
                 lessionNumber : 6
@@ -72,19 +72,19 @@ export const HomePageExplore = [
         tag: 'Skills paths',
         courses : [
             {
-                heading : "Flask",
+                heading : "Functional Analytics",
                 description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "Django",
+                heading : "Project Management",
                 description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "Fast API",
+                heading : "Certificate-Course",
                 description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
                 level : 'Beginner',
                 lessionNumber : 6

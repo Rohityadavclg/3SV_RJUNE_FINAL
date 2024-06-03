@@ -18,7 +18,7 @@ const LearningLanguageSection = () => {
             </div>
             <div className="flex flex-col lg:flex-row items-center justify-center mt-8 lg:mt-0">
               <img
-                src={Know_your_progress}
+                // src={Know_your_progress}
                 alt=""
                 className="object-contain  lg:-mr-32 "
               />
