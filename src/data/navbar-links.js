@@ -15,4 +15,16 @@ export const NavbarLinks = [
     title: "Contact Us",
     path: "/contact",
   },
+  {
+    title: "Faculty",
+    path: "/faculty",
+  },
+  {
+    title: "Gallary",
+    path: "/gallary",
+  }, 
+  {
+    title: "Services",
+    path: "/services",
+  },
 ];

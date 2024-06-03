@@ -12,12 +12,9 @@ const BottomFooter = ["Privacy Policy", "Cookie Policy", "Terms"];
 const Resources = [
   "Articles",
   "Blog",
-  "Chart Sheet",
-  "Code challenges",
   "Docs",
   "Projects",
   "Videos",
-  "Workspaces",
 ];
 const Plans = ["Paid memberships", "For students", "Business solutions"];
 const Community = ["Forums", "Chapters", "Events"];
@@ -35,7 +32,7 @@ const Footer = () => {
                 Company
               </h1>
               <div className="flex flex-col gap-2">
-                {["About", "Careers", "Affiliates"].map((ele, i) => {
+                {["Careers", "Affiliates"].map((ele, i) => {
                   return (
                     <div
                       key={i}
@@ -172,7 +169,7 @@ const Footer = () => {
             })}
           </div>
 
-          <div className="text-center">Made with ❤️ CodeHelp © 2023 Studynotion</div>
+          <div className="text-center">Made with ❤️ 3SV © 2024 Edumentors & Consultants </div>
         </div>
       </div>
     </div>

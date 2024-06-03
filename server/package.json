@@ -1,16 +1,21 @@
 {
+ 
 	"name": "3Sv Edumentor-backend",
 	"version": "1.0.0",
 	"description": "3Sv Edumentor-backend",
+ 
+ 
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js",
 		"dev": "nodemon index.js"
 	},
 	"keywords": [
+ 
 		"3Sv Edumentor-backend"
+ 
 	],
-	"author": "Saikat Mukherjee",
+	"author": "Rohit Yadav",
 	"license": "ISC",
 	"dependencies": {
 		"bcrypt": "^5.1.0",
