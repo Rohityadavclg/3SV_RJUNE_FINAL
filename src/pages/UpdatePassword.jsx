@@ -74,6 +74,7 @@ function UpdatePassword() {
             <label className="relative mt-3 block">
               <p className="mb-1 text-[0.875rem] leading-[1.375rem] text-richblack-5">
                 Confirm New Password <sup className="text-pink-200">*</sup>
+                {/* this is commnets */}
               </p>
               <input
                 required
