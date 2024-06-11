@@ -95,19 +95,19 @@ export const HomePageExplore = [
         tag: 'Career paths',
         courses : [
             {
-                heading : "Next.js",
+                heading : "Excel",
                 description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "Nuxt.js",
+                heading : "Advanced",
                 description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "Sanity",
+                heading : "3SV Courses",
                 description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
                 level : 'Beginner',
                 lessionNumber : 6
