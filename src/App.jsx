@@ -3,7 +3,7 @@ import "./App.css"
 // Redux
 import { useDispatch, useSelector } from "react-redux"
 // React Router
-import { Route, Routes, useNavigate } from "react-router-dom"
+import { Route, Routes, useNavigate,Switch } from "react-router-dom"
 
 // Components
 import Navbar from "./components/Common/Navbar"
@@ -34,12 +34,17 @@ import VerifyEmail from "./pages/VerifyEmail"
 import ViewCourse from "./pages/ViewCourse"
 import { getUserDetails } from "./services/operations/profileAPI"
 import { ACCOUNT_TYPE } from "./utils/constants"
-
+import Gallary from "./pages/Gallary"
+ 
+//import Themetoggle from "../src/components/Common/DarkModeToggler"
+import ServicePage from "./pages/ServicePage"
+import FacultyList from "./components/core/CommonGallary/FacultyList"
+import FacultyImageDetail from "./components/core/CommonGallary/FacultyImageDetail"
 function App() {
   const dispatch = useDispatch()
   const navigate = useNavigate()
   const { user } = useSelector((state) => state.profile)
-
+  const isDarkMode = useSelector((content) => content.ui.isDarkMode);
   useEffect(() => {
     if (localStorage.getItem("token")) {
       const token = JSON.parse(localStorage.getItem("token"))
@@ -49,14 +54,26 @@ function App() {
   }, [])
 
   return (
-    <div className="flex min-h-screen w-screen flex-col bg-richblack-900 font-inter">
-      <Navbar />
+    <div className={`${isDarkMode ? 'dark' : ''}`}>
+      <div className="flex min-h-screen w-screen flex-col bg-white dark:bg-richblack-900 font-inter text-black dark:text-white">
+        <Navbar />
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="courses/:courseId" element={<CourseDetails />} />
         <Route path="catalog/:catalogName" element={<Catalog />} />
+        <Route path="/gallary" element={<Gallary/>} />
+        {/* <Route path="/faculty" element={<FacultyImage/>} /> */}
+        <Route path="/services" element={<ServicePage/>} />
+        
+          
+         <Route path="/faculty" exact element={<FacultyList/>} />
+          <Route path="/faculty/:id" element={<FacultyImageDetail/>} />
+         
+         
+        
         {/* Open Route - for Only Non Logged in User */}
         <Route
           path="login"
@@ -155,6 +172,7 @@ function App() {
         {/* 404 Page */}
         <Route path="*" element={<Error />} />
       </Routes>
+    </div>
     </div>
   )
 }
