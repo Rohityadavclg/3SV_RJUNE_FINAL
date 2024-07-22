@@ -429,7 +429,10 @@ import img19 from "../assets/Images/Faculty/Faculty_19.jpg";
   {
     "Id": 7,
     "imgSrc":img7,
-    "CurrentDesignation": "",
+    "CurrentDesignation": 
+    {
+      "Title":" Vivek Prakash PMP, MCP",
+    },
     "TotalExperience": "30+ Years",
     "AreasOfInvolvement": [
       "Project Management Advisor and Trainer",
@@ -455,7 +458,11 @@ import img19 from "../assets/Images/Faculty/Faculty_19.jpg";
   {
     "Id": 8,
     "imgSrc":img8,
-    "CurrentDesignation": "Director at Reflux Pharmaceuticals Pvt Ltd",
+    "CurrentDesignation": 
+    {
+      "Title":"Amit K. Gosh",
+    },
+     
     "TotalExperience": "40 Years",
     "AreasOfInvolvement": [
       "Project Management",
@@ -489,7 +496,10 @@ import img19 from "../assets/Images/Faculty/Faculty_19.jpg";
   {
     "Id": 9,
     "imgSrc":img9,
-    "CurrentDesignation": "",
+    "CurrentDesignation": 
+    {
+      "Title":" Manoj Sarasappan",
+    },
     "TotalExperience": "30+ Years",
     "AreasOfInvolvement": [
       "Growing companies from scratch",
@@ -527,7 +537,10 @@ import img19 from "../assets/Images/Faculty/Faculty_19.jpg";
   {
     "Id": 10,
     "imgSrc":img10,
-    "CurrentDesignation": "President & Director– Human Resources at Health Prime International (Off-shoring office in India)",
+    "CurrentDesignation":
+    {
+      "Title":"Dr. Hemjith Balakrishnan",
+    },
     "TotalExperience": "30+ Years",
     "AreasOfInvolvement": [
       "Leadership",
@@ -574,7 +587,9 @@ import img19 from "../assets/Images/Faculty/Faculty_19.jpg";
   {
     "Id": 11,
     "imgSrc":img11,
-    "CurrentDesignation": "General Manager (Operations) at an affiliate of JSW Steel Ltd, and Founder of Tawa Foods",
+    "CurrentDesignation":{
+      "Title":"Nadeem Khan",
+    },
     "TotalExperience": "40+ Years",
     "AreasOfInvolvement": [
       "Production planning & Inventory management",
@@ -614,7 +629,10 @@ import img19 from "../assets/Images/Faculty/Faculty_19.jpg";
   {
     "Id": 12,
     "imgSrc": img12,
-    "CurrentDesignation": "",
+    "CurrentDesignation":
+    {
+      "Title":"Chandrasen Sharma"
+    },
     "TotalExperience": "38+ Years",
     "AreasOfInvolvement": [
       "Logistics",
@@ -648,7 +666,9 @@ import img19 from "../assets/Images/Faculty/Faculty_19.jpg";
   {
     "Id": 13,
     "imgSrc":img13,
-    "CurrentDesignation": "",
+    "CurrentDesignation": {
+      "Title": "Manoranjan Prusty",
+    },
     "TotalExperience": "25+ Years",
     "AreasOfInvolvement": [
       "SEO",
@@ -703,7 +723,9 @@ import img19 from "../assets/Images/Faculty/Faculty_19.jpg";
   {
     "Id": 14,
     "imgSrc":img14,
-    "CurrentDesignation": "",
+    "CurrentDesignation":{
+      "Title":"Zafar Mukadam"
+    },
     "TotalExperience": "25+ Years",
     "AreasOfInvolvement": [
       "Attrition & Retention",
@@ -748,7 +770,9 @@ import img19 from "../assets/Images/Faculty/Faculty_19.jpg";
   {
     "Id": 15,
     "imgSrc": img15,
-    "CurrentDesignation": "",
+    "CurrentDesignation":{
+      "Title":"Dinesh Kumar Mishra",
+    },
     "TotalExperience": "35+ Years",
     "AreasOfInvolvement": [
       "Insurance Business",
@@ -789,7 +813,9 @@ import img19 from "../assets/Images/Faculty/Faculty_19.jpg";
   {
     "Id": 16,
     "imgSrc": img16,
-    "CurrentDesignation": "Director at NAVAK Pharma Chem. (Technical Solutions & Consultants)",
+    "CurrentDesignation": {
+      "Title":"Dr. Pratik R. Sathe",
+    },
     "TotalExperience": "30+ Years",
     "AreasOfInvolvement": [
       "API Pharmaceutical Industry",
@@ -822,7 +848,9 @@ import img19 from "../assets/Images/Faculty/Faculty_19.jpg";
   {
     "Id":17,
     "imgSrc":img17,
-    "currentDesignation": "Founder and CEO of ALAX OPTO ENTERPRISES",
+    "currentDesignation": {
+      "Title":"Pratik Gupta",
+    },
     "name": "Pratik Gupta",
     "awards": [
       "Awardee of top 20 entrepreneurs of Mumbai by NDTV India"
@@ -874,7 +902,9 @@ import img19 from "../assets/Images/Faculty/Faculty_19.jpg";
   {
     "Id":18,
     "imgSrc":img18,
-    "CurrentDesignation":  "",
+    "CurrentDesignation":{
+      "Title":"Subarna Rath",
+    },
     "name": "Subarna Rath",
     "educational_qualification": {
       "degree": [
@@ -897,8 +927,9 @@ import img19 from "../assets/Images/Faculty/Faculty_19.jpg";
   {
     "Id":19,
     "imgSrc":img19,
-    "CurrentDesignation":  "",
-    "name": "Surekha V. Chaudhari",
+    "CurrentDesignation":{
+      "Title":"Surekha V. Chaudhari",
+    },
     "educational_qualification": {
       "degree": [
         "M.A."

@@ -6,10 +6,10 @@ export const FooterLink2 = [
       { title: "Cybersecurity", link: "/cybersecurity" },
       { title: "Data Analytics", link: "/data-analytics" },
       { title: "Data Visualization", link: "/data-visualization" },
-      { title: "DevOps", link: "/devops" },
-      { title: "Machine Learning", link: "/machine-learning" },
-      { title: "Mobile Development", link: "/mobile-development" },
-      { title: "Web Development", link: "/web-development" },
+      // { title: "DevOps", link: "/devops" },
+      // { title: "Machine Learning", link: "/machine-learning" },
+      // { title: "Mobile Development", link: "/mobile-development" },
+      // { title: "Web Development", link: "/web-development" },
     ],
   },
   {
@@ -19,10 +19,10 @@ export const FooterLink2 = [
       { "title": "Econometrics", link: "/econometrics" },
       { "title": "Management Science", link: "/management-science" },
       { "title": "Cost Control Tools and Techniques in Industry", link: "/cost-control-tools" },
-      { "title": "Design Thinking", link: "/design-thinking" },
-      { "title": "R Programming", link: "/r-programming" },
-      { "title": "Python Programming", link: "/python-programming" },
-      { "title": "SQL", link: "/sql" },
+      // { "title": "Design Thinking", link: "/design-thinking" },
+      // { "title": "R Programming", link: "/r-programming" },
+      // { "title": "Python Programming", link: "/python-programming" },
+      // { "title": "SQL", link: "/sql" },
     ]
   
   

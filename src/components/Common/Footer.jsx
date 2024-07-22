@@ -12,12 +12,10 @@ const BottomFooter = ["Privacy Policy", "Cookie Policy", "Terms"];
 const Resources = [
   "Articles",
   "Blog",
-  "Docs",
   "Projects",
-  "Videos",
 ];
 const Plans = ["Paid memberships", "For students", "Business solutions"];
-const Community = ["Forums", "Chapters", "Events"];
+const Community = ["Forums",];
 
 const Footer = () => {
   return (

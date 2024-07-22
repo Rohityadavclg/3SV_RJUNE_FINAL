@@ -23,7 +23,7 @@ exports.signup = async (req, res) => {
       contactNumber,
       otp,
     } = req.body
-    // Check if All Details are there or not
+    // Check if All Details are there or not null or emp
     if (
       !firstName ||
       !lastName ||

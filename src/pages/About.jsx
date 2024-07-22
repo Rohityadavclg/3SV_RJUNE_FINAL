@@ -1,6 +1,6 @@
 import React from "react"
 
-import FoundingStory from "../assets/Images/FoundingStory.png"
+import FoundingStory from "../assets/Images/Gallery/Gallery_11.jpg"
 import BannerImage1 from "../assets/Images/aboutus1.webp"
 import BannerImage2 from "../assets/Images/aboutus2.webp"
 import BannerImage3 from "../assets/Images/aboutus3.webp"

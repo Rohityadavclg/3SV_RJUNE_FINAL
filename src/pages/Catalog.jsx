@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { useSelector } from "react-redux"
 import { useParams } from "react-router-dom"
-
-// import CourseCard from "../components/Catalog/CourseCard"
-// import CourseSlider from "../components/Catalog/CourseSlider"
 import Footer from "../components/Common/Footer"
 import Course_Card from "../components/core/Catalog/Course_Card"
 import Course_Slider from "../components/core/Catalog/Course_Slider"
@@ -20,7 +17,7 @@ function Catalog() {
   const [categoryId, setCategoryId] = useState("")
   // Fetch All Categories
   useEffect(() => {
-    ;(async () => {
+    (async () => {
       try {
         const res = await apiConnector("GET", categories.CATEGORIES_API)
         const category_id = res?.data?.data?.filter(
@@ -34,7 +31,7 @@ function Catalog() {
   }, [catalogName])
   useEffect(() => {
     if (categoryId) {
-      ;(async () => {
+      (async () => {
         try {
           const res = await getCatalogPageData(categoryId)
           setCatalogPageData(res)
@@ -57,12 +54,12 @@ function Catalog() {
   }
 
   return (
-    <>
+    <div>
       {/* Hero Section */}
       <div className=" box-content bg-richblack-800 px-4">
         <div className="mx-auto flex min-h-[260px] max-w-maxContentTab flex-col justify-center gap-4 lg:max-w-maxContent ">
           <p className="text-sm text-richblack-300">
-            {`Home / Catalog / `}
+            {`Home / Course Category / `}
             <span className="text-yellow-25">
               {catalogPageData?.data?.selectedCategory?.name}
             </span>
@@ -134,7 +131,7 @@ function Catalog() {
       </div>
 
       <Footer />
-    </>
+    </div>
   )
 }
 
